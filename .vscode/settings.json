@@ -1,0 +1,12 @@
+{
+    "xml.fileAssociations": [
+        {
+            "systemId": "c:\\Users\\Andrew\\source\\repos\\NativeScript\\InOut\\schema\\tns.xsd",
+            "pattern": "**/**/*.xml"
+        }
+    ],
+    "files.exclude": {
+        "schema": true
+    },
+    "tslint.typeCheck": true
+}
