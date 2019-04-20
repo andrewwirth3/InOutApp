@@ -1,10 +1,23 @@
 // NativeScript core theme
 // @see https://docs.nativescript.org/ui/theme
-@import '~nativescript-theme-core/scss/blue';
+@import "~nativescript-theme-core/scss/blue";
 
 // Override variables here
 
-@import '~nativescript-theme-core/scss/index';
+.fab {
+  font-family: "Font Awesome 5 Brands", "fa-brands-400";
+  font-weight: 400;
+}
+.far {
+  font-family: "Font Awesome 5 Brands", "fa-regular-400";
+  font-weight: 400;
+}
+.fas {
+  font-family: "Font Awesome 5 Brands", "fa-solid-400";
+  font-weight: 900;
+}
+
+@import "~nativescript-theme-core/scss/index";
 
 // Global SCSS styling
 // @see https://docs.nativescript.org/ui/styling
